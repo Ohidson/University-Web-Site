@@ -3,3 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body{
+  background: #333;
+  color: #fff;
+}
+
+.header{
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(../images/washington.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
