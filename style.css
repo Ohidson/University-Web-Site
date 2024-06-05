@@ -22,7 +22,7 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,50%);
+  transform: translate(-50%,-50%);
   text-align: center;
 }
 
@@ -34,4 +34,5 @@ body{
   width: 150px;
   height: 45px;
   margin-top: 25px;
+  font-weight: 600;
 }
