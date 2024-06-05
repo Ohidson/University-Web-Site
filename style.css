@@ -36,3 +36,12 @@ body{
   margin-top: 25px;
   font-weight: 600;
 }
+
+#section{
+  padding-top: 10%;
+  text-align: center;
+}
+
+#section h1{
+  font-size: 24px;
+}
