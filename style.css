@@ -7,6 +7,7 @@
 body{
   background: #333;
   color: #fff;
+  line-height: 1.5;
 }
 
 .header{
@@ -22,4 +23,15 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%,50%);
+  text-align: center;
+}
+
+.content h1{
+  font-size: 24pxrem;
+}
+
+.btn {
+  width: 150px;
+  height: 45px;
+  margin-top: 25px;
 }
