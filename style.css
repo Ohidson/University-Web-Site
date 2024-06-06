@@ -53,10 +53,18 @@ body{
   text-align: center;
 }
 
-#section h1{
-  font-size: 24px;
+.heading{
+  font-size: 36px;
+  padding-bottom: 5%;
 }
 
 :root{
   --green-color: #009688
+}
+
+.col-course{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
