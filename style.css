@@ -106,7 +106,7 @@ body{
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
-  gap: 4px;
+  gap: 10px;
   margin-bottom: 5%;
   padding-top: 5%;
 }
@@ -115,14 +115,13 @@ img{
   width: 100%;
   height: 60vh;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .campus-col{
   flex-basis: 32%;
   position: relative;
 }
-
-.campus-col 
 
 .layer{
   background: transparent;
@@ -132,6 +131,7 @@ img{
   left: 0;
   top: 0;
   transition: 1s;
+  cursor: pointer;
 }
 
 .layer:hover{
@@ -153,4 +153,17 @@ img{
 .layer:hover h3{
   bottom: 49%;
   opacity: 1;
+}
+
+.facilities-row{
+  flex-basis: 32%;
+}
+
+@media(max-width: 568px){
+  .row{
+    flex-direction: column;
+  }
+  .col-course{
+    flex-direction: column;
+  }
 }
