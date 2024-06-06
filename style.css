@@ -27,7 +27,7 @@ body{
 }
 
 .content h1{
-  font-size: 24pxrem;
+  font-size: 24px;
 }
 
 .btn {
@@ -64,7 +64,21 @@ body{
 
 .col-course{
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+  width: 90%;
+  justify-content: space-around;
   align-items: center;
+  padding-bottom: 45px;
+  text-align: center;
+  margin: auto;
+}
+
+.course{
+  background: #009688;
+  flex-basis: 30%;
+  padding: 15px;
+}
+
+.course h3{
+  font-weight: 600;
+  padding: 10px;
 }
