@@ -73,6 +73,10 @@ body{
   gap: 10px;
 }
 
+.col{
+  flex-basis: 32%;
+}
+
 .course{
   background: #009688;
   flex-basis: 30%;
