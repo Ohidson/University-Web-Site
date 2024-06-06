@@ -70,6 +70,7 @@ body{
   padding-bottom: 45px;
   text-align: center;
   margin: auto;
+  gap: 10px;
 }
 
 .course{
@@ -81,4 +82,8 @@ body{
 .course h3{
   font-weight: 600;
   padding: 10px;
+}
+
+.course:hover{
+
 }
