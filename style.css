@@ -35,14 +35,17 @@ body{
   height: 45px;
   margin-top: 25px;
   font-weight: 600;
-  background: var(--green-color);
-  border: 0;
+  background: transparent;
+  border: 1px solid #fff;
   transition: 1s;
   color: #fff;
+  cursor: pointer;
+  padding: 12px 34px;
 }
 
-button:hover{
-  background: transparent;
+.btn:hover{
+  background: var(--green-color);
+  border: transparent;
 }
 
 #section{
