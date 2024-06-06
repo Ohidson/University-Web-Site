@@ -35,6 +35,14 @@ body{
   height: 45px;
   margin-top: 25px;
   font-weight: 600;
+  background: var(--green-color);
+  border: 0;
+  transition: 1s;
+  color: #fff;
+}
+
+button:hover{
+  background: transparent;
 }
 
 #section{
@@ -44,4 +52,8 @@ body{
 
 #section h1{
   font-size: 24px;
+}
+
+:root{
+  --green-color: #009688
 }
