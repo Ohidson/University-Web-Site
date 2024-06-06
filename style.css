@@ -122,6 +122,8 @@ img{
   position: relative;
 }
 
+.campus-col 
+
 .layer{
   background: transparent;
   width: 100%;
@@ -133,5 +135,22 @@ img{
 }
 
 .layer:hover{
-  background: rgba(99, 160, 99, 0.7);;
+  background: rgba(99, 160, 99, 0.7);
+  border-radius: 10px;
+}
+
+.layer h3{
+  position: absolute;
+  font-weight: 500;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 22px;
+  transition: 1s;
+  opacity: 0;
+}
+
+.layer:hover h3{
+  bottom: 49%;
+  opacity: 1;
 }
