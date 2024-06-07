@@ -159,6 +159,26 @@ img{
   flex-basis: 32%;
 }
 
+.testimonial-col{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 25px;
+  flex-basis: 42%;
+  background: #009688;
+  border-radius: 10px;
+}
+
+.testimonial-col h3{
+  margin-top: 15px;
+}
+
+.testimonial-col img{
+  margin-right: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 @media(max-width: 568px){
   .row{
     flex-direction: column;
