@@ -198,6 +198,18 @@ img{
   padding: 45px 25px;
 }
 
+.footer{
+  background: #000;
+  width: 100%;
+  padding: 100px 10px;
+  text-align: center;
+}
+
+hr{
+  margin-top: 15px;
+  border: 1px solid #009688;
+}
+
 @media(max-width: 700px){
   .row{
     flex-direction: column;
