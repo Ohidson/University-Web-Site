@@ -188,6 +188,7 @@ img{
   padding: 20px;
 }
 
+/* Call To Action */
 .cta{
   margin: 50px auto;
   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/freecodecamp.png);
@@ -198,6 +199,7 @@ img{
   padding: 45px 25px;
 }
 
+/* Footer */
 .footer{
   background: #000;
   width: 100%;
@@ -205,9 +207,52 @@ img{
   text-align: center;
 }
 
+/* Navigation Menu */
+.container{
+  padding: 10px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container ul li{
+  display: inline-block;
+  padding: 0% 10px;
+  list-style: none;
+}
+
+.container ul li a{
+  position: relative;
+}
+
+.container ul li a::after{
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 4px;
+  left: 0;
+  bottom: -5px;
+  background: #009688;
+  transition: 1s;
+}
+
+.container ul li a:hover::after{
+  width: 100%;
+}
+
+.container a{
+  color: #fff;
+  text-decoration: none;
+}
+
 hr{
   margin-top: 15px;
   border: 1px solid #009688;
+}
+
+.icon i{
+  padding-top: 35px;
+  margin: 10px;
 }
 
 @media(max-width: 700px){
