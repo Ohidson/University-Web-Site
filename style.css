@@ -265,13 +265,14 @@ hr{
   .container .menu-bar{
     position: fixed;
     top: 0;
-    right: 0;
+    right: -250px;
     width: 250px;
     height: 100%;
     background: #009688;
     z-index: 2;
   }
-  .menu-bar ul li{
+  .container .menu-bar li{
+    padding: 30px 25px 0;
     display: block;
   }
 }
