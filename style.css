@@ -262,6 +262,14 @@ hr{
   margin: 10px;
 }
 
+ #close_icon{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 35px;
+  height: 35px;
+}
+
 @media(max-width: 700px){
   .row{
     flex-direction: column;
