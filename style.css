@@ -215,6 +215,13 @@ img{
   align-items: center;
 }
 
+.container img{
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  display: none;
+}
+
 .container ul li{
   display: inline-block;
   padding: 0% 10px;
@@ -273,6 +280,12 @@ hr{
   }
   .container .menu-bar li{
     padding: 30px 25px 0;
+    display: block;
+  }
+  .container img{
+    width: 35px;
+    height: 35px;
+    color: #fff;
     display: block;
   }
 }
