@@ -268,7 +268,7 @@ hr{
   left: 10px;
   width: 35px;
   height: 35px;
-}
+ }
 
 @media(max-width: 700px){
   .row{
@@ -285,6 +285,7 @@ hr{
     height: 100%;
     background: #009688;
     z-index: 2;
+    transition: 1s;
   }
   .container .menu-bar li{
     padding: 30px 25px 0;
