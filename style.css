@@ -262,4 +262,16 @@ hr{
   .col-course{
     flex-direction: column;
   }
+  .container .menu-bar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background: #009688;
+    z-index: 2;
+  }
+  .menu-bar ul li{
+    display: block;
+  }
 }
